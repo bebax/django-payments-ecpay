@@ -121,7 +121,10 @@ class ECPayProvider(BasicProvider):
         return self.endpoint
 
     def process_data(self, payment, request):
-        data = request.POST  # .dict()
+        data = request.POST
+
+        if type(data) != dict:
+            data = data.dict()
 
         check_mac_value = data.pop('CheckMacValue', None)
 
