@@ -3,7 +3,7 @@ django-payments-ecpay
 
 A `django-payments <https://github.com/mirumee/django-payments>` backend for the ECPay (Taiwan) payment gateway.
 
-Reference documentation can be found at the following addresses:
+Reference documentation can be found at the following address:
 https://www.ecpay.com.tw/Content/files/ecpay_011.pdf
 
 Parameters
